@@ -1,0 +1,28 @@
+Configuring aeson-1.1.2.0...
+Building aeson-1.1.2.0...
+Preprocessing library aeson-1.1.2.0...
+[ 1 of 21] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/Generic.o )
+[ 2 of 21] Compiling Data.Aeson.Parser.UnescapeFFI ( ffi/Data/Aeson/Parser/UnescapeFFI.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Parser/UnescapeFFI.o )
+[ 3 of 21] Compiling Data.Aeson.Parser.Unescape ( Data/Aeson/Parser/Unescape.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Parser/Unescape.o )
+[ 4 of 21] Compiling Data.Aeson.Internal.Functions ( Data/Aeson/Internal/Functions.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Internal/Functions.o )
+[ 5 of 21] Compiling Data.Aeson.Internal.Time ( Data/Aeson/Internal/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Internal/Time.o )
+[ 6 of 21] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/Internal.o )
+[ 7 of 21] Compiling Data.Aeson.Encoding.Builder ( Data/Aeson/Encoding/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Encoding/Builder.o )
+[ 8 of 21] Compiling Data.Aeson.Encoding.Internal ( Data/Aeson/Encoding/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Encoding/Internal.o )
+[ 9 of 21] Compiling Data.Aeson.Parser.Time ( Data/Aeson/Parser/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Parser/Time.o )
+[10 of 21] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Parser/Internal.o )
+[11 of 21] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Parser.o )
+[12 of 21] Compiling Data.Aeson.Encoding ( Data/Aeson/Encoding.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Encoding.o )
+[13 of 21] Compiling Data.Aeson.Types.ToJSON ( Data/Aeson/Types/ToJSON.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/ToJSON.o )
+[14 of 21] Compiling Data.Aeson.Types.FromJSON ( Data/Aeson/Types/FromJSON.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/FromJSON.o )
+[15 of 21] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/Class.o )
+[16 of 21] Compiling Data.Aeson.Internal ( Data/Aeson/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Internal.o )
+[17 of 21] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types.o )
+[18 of 21] Compiling Data.Aeson.Text  ( Data/Aeson/Text.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Text.o )
+[19 of 21] Compiling Data.Aeson       ( Data/Aeson.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson.o )
+[20 of 21] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/TH.o )
+[21 of 21] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Encode.o )
+In-place registering aeson-1.1.2.0...
+Installing library in
+/Users/lizziesiegle/Desktop/programming/hask/stockbot/.stack-work/install/x86_64-osx/lts-6.31/7.10.3/lib/x86_64-osx-ghc-7.10.3/aeson-1.1.2.0-E1ZetE552FXKcXODW3hRbQ
+Registering aeson-1.1.2.0...

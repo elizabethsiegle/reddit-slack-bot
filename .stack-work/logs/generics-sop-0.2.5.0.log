@@ -1,0 +1,19 @@
+Configuring generics-sop-0.2.5.0...
+Building generics-sop-0.2.5.0...
+Preprocessing library generics-sop-0.2.5.0...
+[ 1 of 13] Compiling Generics.SOP.Sing ( src/Generics/SOP/Sing.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/Sing.o )
+[ 2 of 13] Compiling Generics.SOP.Constraint ( src/Generics/SOP/Constraint.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/Constraint.o )
+[ 3 of 13] Compiling Generics.SOP.BasicFunctors ( src/Generics/SOP/BasicFunctors.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/BasicFunctors.o )
+[ 4 of 13] Compiling Generics.SOP.Classes ( src/Generics/SOP/Classes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/Classes.o )
+[ 5 of 13] Compiling Generics.SOP.NP  ( src/Generics/SOP/NP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/NP.o )
+[ 6 of 13] Compiling Generics.SOP.Dict ( src/Generics/SOP/Dict.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/Dict.o )
+[ 7 of 13] Compiling Generics.SOP.Metadata ( src/Generics/SOP/Metadata.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/Metadata.o )
+[ 8 of 13] Compiling Generics.SOP.NS  ( src/Generics/SOP/NS.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/NS.o )
+[ 9 of 13] Compiling Generics.SOP.GGP ( src/Generics/SOP/GGP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/GGP.o )
+[10 of 13] Compiling Generics.SOP.Universe ( src/Generics/SOP/Universe.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/Universe.o )
+[11 of 13] Compiling Generics.SOP.TH  ( src/Generics/SOP/TH.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/TH.o )
+[12 of 13] Compiling Generics.SOP.Instances ( src/Generics/SOP/Instances.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP/Instances.o )
+[13 of 13] Compiling Generics.SOP     ( src/Generics/SOP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Generics/SOP.o )
+Installing library in
+/Users/lizziesiegle/.stack/snapshots/x86_64-osx/nightly-2017-04-22/8.0.2/lib/x86_64-osx-ghc-8.0.2/generics-sop-0.2.5.0-4uFPMMqbRNMCAcLGs4abxX
+Registering generics-sop-0.2.5.0...

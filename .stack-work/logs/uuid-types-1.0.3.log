@@ -1,0 +1,20 @@
+Configuring uuid-types-1.0.3...
+Building uuid-types-1.0.3...
+Preprocessing library uuid-types-1.0.3...
+[1 of 3] Compiling Data.UUID.Types.Internal.Builder ( Data/UUID/Types/Internal/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/UUID/Types/Internal/Builder.o )
+[2 of 3] Compiling Data.UUID.Types.Internal ( Data/UUID/Types/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/UUID/Types/Internal.o )
+
+Data/UUID/Types/Internal.hs:41:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Data/UUID/Types/Internal.hs:44:1: Warning:
+    The import of ‘Data.Functor’ is redundant
+      except perhaps to import instances from ‘Data.Functor’
+    To import instances alone, use: import Data.Functor()
+[3 of 3] Compiling Data.UUID.Types  ( Data/UUID/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/UUID/Types.o )
+In-place registering uuid-types-1.0.3...
+Installing library in
+/Users/lizziesiegle/.stack/snapshots/x86_64-osx/lts-6.31/7.10.3/lib/x86_64-osx-ghc-7.10.3/uuid-types-1.0.3-1jYi9RR4Gf08rGU1w6xxPr
+Registering uuid-types-1.0.3...

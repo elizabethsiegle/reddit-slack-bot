@@ -1,0 +1,37 @@
+Configuring primitive-0.6.2.0...
+Building primitive-0.6.2.0...
+Preprocessing library primitive-0.6.2.0...
+[ 1 of 12] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/MachDeps.o )
+[ 2 of 12] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/Internal/Operations.o )
+[ 3 of 12] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/Internal/Compat.o )
+[ 4 of 12] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Control/Monad/Primitive.o )
+
+Control/Monad/Primitive.hs:47:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+Control/Monad/Primitive.hs:109:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Primitive.hs:109:47: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Primitive.hs:110:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[ 5 of 12] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/Array.o )
+[ 6 of 12] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/MutVar.o )
+[ 7 of 12] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/SmallArray.o )
+[ 8 of 12] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/Types.o )
+[ 9 of 12] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/Addr.o )
+[10 of 12] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/ByteArray.o )
+[11 of 12] Compiling Data.Primitive   ( Data/Primitive.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive.o )
+[12 of 12] Compiling Data.Primitive.UnliftedArray ( Data/Primitive/UnliftedArray.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Primitive/UnliftedArray.o )
+Installing library in
+/Users/lizziesiegle/.stack/snapshots/x86_64-osx/nightly-2017-04-21/8.0.2/lib/x86_64-osx-ghc-8.0.2/primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+Registering primitive-0.6.2.0...

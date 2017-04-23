@@ -1,0 +1,16 @@
+Configuring http-media-0.6.4...
+Building http-media-0.6.4...
+Preprocessing library http-media-0.6.4...
+[1 of 9] Compiling Network.HTTP.Media.Utils ( src/Network/HTTP/Media/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media/Utils.o )
+[2 of 9] Compiling Network.HTTP.Media.RenderHeader ( src/Network/HTTP/Media/RenderHeader.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media/RenderHeader.o )
+[3 of 9] Compiling Network.HTTP.Media.Quality ( src/Network/HTTP/Media/Quality.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media/Quality.o )
+[4 of 9] Compiling Network.HTTP.Media.Accept ( src/Network/HTTP/Media/Accept.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media/Accept.o )
+[5 of 9] Compiling Network.HTTP.Media.Language.Internal ( src/Network/HTTP/Media/Language/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media/Language/Internal.o )
+[6 of 9] Compiling Network.HTTP.Media.Language ( src/Network/HTTP/Media/Language.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media/Language.o )
+[7 of 9] Compiling Network.HTTP.Media.MediaType.Internal ( src/Network/HTTP/Media/MediaType/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media/MediaType/Internal.o )
+[8 of 9] Compiling Network.HTTP.Media.MediaType ( src/Network/HTTP/Media/MediaType.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media/MediaType.o )
+[9 of 9] Compiling Network.HTTP.Media ( src/Network/HTTP/Media.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/HTTP/Media.o )
+In-place registering http-media-0.6.4...
+Installing library in
+/Users/lizziesiegle/Desktop/programming/hask/stockbot/.stack-work/install/x86_64-osx/lts-6.31/7.10.3/lib/x86_64-osx-ghc-7.10.3/http-media-0.6.4-08ksal2nQeGIPFwzBknwaV
+Registering http-media-0.6.4...

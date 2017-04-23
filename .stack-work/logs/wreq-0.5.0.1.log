@@ -1,0 +1,60 @@
+[1 of 1] Compiling Main             ( /private/var/folders/m8/r5xqgwwd7b502rq6c09d2cxr0000gn/T/stack83322/wreq-0.5.0.1/Setup.hs, /private/var/folders/m8/r5xqgwwd7b502rq6c09d2cxr0000gn/T/stack83322/wreq-0.5.0.1/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/setup/Main.o )
+Linking /private/var/folders/m8/r5xqgwwd7b502rq6c09d2cxr0000gn/T/stack83322/wreq-0.5.0.1/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/setup/setup ...
+Configuring wreq-0.5.0.1...
+Building wreq-0.5.0.1...
+Preprocessing library wreq-0.5.0.1...
+[ 1 of 15] Compiling Network.Wreq.Lens.Machinery ( Network/Wreq/Lens/Machinery.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Lens/Machinery.o )
+[ 2 of 15] Compiling Paths_wreq       ( .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_wreq.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Paths_wreq.o )
+[ 3 of 15] Compiling Network.Wreq.Internal.OAuth1 ( Network/Wreq/Internal/OAuth1.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Internal/OAuth1.o )
+[ 4 of 15] Compiling Network.Wreq.Cache.Store ( Network/Wreq/Cache/Store.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Cache/Store.o )
+[ 5 of 15] Compiling Network.Wreq.Internal.Types ( Network/Wreq/Internal/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Internal/Types.o )
+
+Network/Wreq/Internal/Types.hs:48:1: Warning:
+    The import of ‘mconcat’ from module ‘Data.Monoid’ is redundant
+[ 6 of 15] Compiling Network.Wreq.Internal.Lens ( Network/Wreq/Internal/Lens.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Internal/Lens.o )
+
+Network/Wreq/Internal/Lens.hs:45:1: Warning:
+    Defined but not used: ‘requestManagerOverride’
+[ 7 of 15] Compiling Network.Wreq.Internal.AWS ( Network/Wreq/Internal/AWS.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Internal/AWS.o )
+
+Network/Wreq/Internal/AWS.hs:9:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 8 of 15] Compiling Network.Wreq.Types ( Network/Wreq/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Types.o )
+
+Network/Wreq/Types.hs:43:1: Warning:
+    The import of ‘Word’ from module ‘Data.Word’ is redundant
+[ 9 of 15] Compiling Network.Wreq.Internal.Link ( Network/Wreq/Internal/Link.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Internal/Link.o )
+
+Network/Wreq/Internal/Link.hs:8:1: Warning:
+    The import of ‘<*>, <*, *>, <$>’
+    from module ‘Control.Applicative’ is redundant
+[10 of 15] Compiling Network.Wreq.Lens.TH ( Network/Wreq/Lens/TH.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Lens/TH.o )
+[11 of 15] Compiling Network.Wreq.Lens ( Network/Wreq/Lens.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Lens.o )
+
+Network/Wreq/Lens.hs:103:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[12 of 15] Compiling Network.Wreq.Cache ( Network/Wreq/Cache.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Cache.o )
+
+Network/Wreq/Cache.hs:23:1: Warning:
+    The import of ‘mconcat’ from module ‘Data.Monoid’ is redundant
+
+Network/Wreq/Cache.hs:153:30: Warning:
+    In the use of ‘parseTime’
+    (imported from Data.Time.Format, but defined in time-1.5.0.1:Data.Time.Format.Parse):
+    Deprecated: "use "parseTimeM True" instead"
+[13 of 15] Compiling Network.Wreq.Internal ( Network/Wreq/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Internal.o )
+
+Network/Wreq/Internal.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[14 of 15] Compiling Network.Wreq     ( Network/Wreq.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq.o )
+[15 of 15] Compiling Network.Wreq.Session ( Network/Wreq/Session.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Wreq/Session.o )
+In-place registering wreq-0.5.0.1...
+Installing library in
+/Users/lizziesiegle/Desktop/programming/hask/stockbot/.stack-work/install/x86_64-osx/lts-6.31/7.10.3/lib/x86_64-osx-ghc-7.10.3/wreq-0.5.0.1-LQcRGFVBJvfAGMKxX3gsAm
+Registering wreq-0.5.0.1...

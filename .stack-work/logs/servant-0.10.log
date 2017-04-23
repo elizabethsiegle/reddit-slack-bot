@@ -1,0 +1,30 @@
+[1 of 1] Compiling Main             ( /private/var/folders/m8/r5xqgwwd7b502rq6c09d2cxr0000gn/T/stack7967/servant-0.10/Setup.lhs, /private/var/folders/m8/r5xqgwwd7b502rq6c09d2cxr0000gn/T/stack7967/servant-0.10/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/Main.o )
+Linking /private/var/folders/m8/r5xqgwwd7b502rq6c09d2cxr0000gn/T/stack7967/servant-0.10/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/setup ...
+Configuring servant-0.10...
+Building servant-0.10...
+Preprocessing library servant-0.10...
+[ 1 of 22] Compiling Servant.API.WithNamedContext ( src/Servant/API/WithNamedContext.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/WithNamedContext.o )
+[ 2 of 22] Compiling Servant.API.Verbs ( src/Servant/API/Verbs.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Verbs.o )
+[ 3 of 22] Compiling Servant.API.Vault ( src/Servant/API/Vault.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Vault.o )
+[ 4 of 22] Compiling Servant.API.Sub  ( src/Servant/API/Sub.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Sub.o )
+[ 5 of 22] Compiling Servant.API.ReqBody ( src/Servant/API/ReqBody.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/ReqBody.o )
+[ 6 of 22] Compiling Servant.API.RemoteHost ( src/Servant/API/RemoteHost.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/RemoteHost.o )
+[ 7 of 22] Compiling Servant.API.Raw  ( src/Servant/API/Raw.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Raw.o )
+[ 8 of 22] Compiling Servant.API.QueryParam ( src/Servant/API/QueryParam.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/QueryParam.o )
+[ 9 of 22] Compiling Servant.API.IsSecure ( src/Servant/API/IsSecure.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/IsSecure.o )
+[10 of 22] Compiling Servant.API.HttpVersion ( src/Servant/API/HttpVersion.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/HttpVersion.o )
+[11 of 22] Compiling Servant.API.Header ( src/Servant/API/Header.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Header.o )
+[12 of 22] Compiling Servant.API.ResponseHeaders ( src/Servant/API/ResponseHeaders.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/ResponseHeaders.o )
+[13 of 22] Compiling Servant.API.Experimental.Auth ( src/Servant/API/Experimental/Auth.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Experimental/Auth.o )
+[14 of 22] Compiling Servant.API.ContentTypes ( src/Servant/API/ContentTypes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/ContentTypes.o )
+[15 of 22] Compiling Servant.API.Capture ( src/Servant/API/Capture.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Capture.o )
+[16 of 22] Compiling Servant.API.BasicAuth ( src/Servant/API/BasicAuth.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/BasicAuth.o )
+[17 of 22] Compiling Servant.API.Alternative ( src/Servant/API/Alternative.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Alternative.o )
+[18 of 22] Compiling Servant.API.TypeLevel ( src/Servant/API/TypeLevel.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/TypeLevel.o )
+[19 of 22] Compiling Servant.Utils.Links ( src/Servant/Utils/Links.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/Utils/Links.o )
+[20 of 22] Compiling Servant.API      ( src/Servant/API.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API.o )
+[21 of 22] Compiling Servant.API.Internal.Test.ComprehensiveAPI ( src/Servant/API/Internal/Test/ComprehensiveAPI.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/API/Internal/Test/ComprehensiveAPI.o )
+[22 of 22] Compiling Servant.Utils.Enter ( src/Servant/Utils/Enter.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Servant/Utils/Enter.o )
+Installing library in
+/Users/lizziesiegle/.stack/snapshots/x86_64-osx/nightly-2017-04-22/8.0.2/lib/x86_64-osx-ghc-8.0.2/servant-0.10-9pb6M7QSITwIr7bQYmcawH
+Registering servant-0.10...

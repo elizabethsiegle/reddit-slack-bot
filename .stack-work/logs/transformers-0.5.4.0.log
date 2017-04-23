@@ -1,0 +1,36 @@
+Configuring transformers-0.5.4.0...
+Building transformers-0.5.4.0...
+Preprocessing library transformers-0.5.4.0...
+[ 1 of 29] Compiling Control.Monad.Trans.Class ( Control/Monad/Trans/Class.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Class.o )
+[ 2 of 29] Compiling Control.Monad.IO.Class ( legacy/pre711/Control/Monad/IO/Class.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/IO/Class.o )
+[ 3 of 29] Compiling Control.Monad.Trans.Cont ( Control/Monad/Trans/Cont.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Cont.o )
+[ 4 of 29] Compiling Control.Monad.Trans.Select ( Control/Monad/Trans/Select.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Select.o )
+[ 5 of 29] Compiling Control.Monad.Signatures ( Control/Monad/Signatures.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Signatures.o )
+[ 6 of 29] Compiling Control.Monad.Trans.Reader ( Control/Monad/Trans/Reader.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Reader.o )
+[ 7 of 29] Compiling Control.Monad.Trans.RWS.Lazy ( Control/Monad/Trans/RWS/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/RWS/Lazy.o )
+[ 8 of 29] Compiling Control.Monad.Trans.RWS ( Control/Monad/Trans/RWS.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/RWS.o )
+[ 9 of 29] Compiling Control.Monad.Trans.RWS.Strict ( Control/Monad/Trans/RWS/Strict.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/RWS/Strict.o )
+[10 of 29] Compiling Control.Monad.Trans.State.Lazy ( Control/Monad/Trans/State/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/State/Lazy.o )
+[11 of 29] Compiling Control.Monad.Trans.State ( Control/Monad/Trans/State.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/State.o )
+[12 of 29] Compiling Control.Monad.Trans.State.Strict ( Control/Monad/Trans/State/Strict.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/State/Strict.o )
+[13 of 29] Compiling Data.Functor.Classes ( legacy/pre711/Data/Functor/Classes.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Functor/Classes.o )
+[14 of 29] Compiling Data.Functor.Constant ( Data/Functor/Constant.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Functor/Constant.o )
+[15 of 29] Compiling Control.Applicative.Lift ( Control/Applicative/Lift.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Applicative/Lift.o )
+[16 of 29] Compiling Control.Monad.Trans.Except ( Control/Monad/Trans/Except.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Except.o )
+[17 of 29] Compiling Control.Monad.Trans.Error ( Control/Monad/Trans/Error.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Error.o )
+[18 of 29] Compiling Control.Monad.Trans.Identity ( Control/Monad/Trans/Identity.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Identity.o )
+[19 of 29] Compiling Control.Monad.Trans.List ( Control/Monad/Trans/List.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/List.o )
+[20 of 29] Compiling Control.Monad.Trans.Maybe ( Control/Monad/Trans/Maybe.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Maybe.o )
+[21 of 29] Compiling Control.Monad.Trans.Writer.Lazy ( Control/Monad/Trans/Writer/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Writer/Lazy.o )
+[22 of 29] Compiling Control.Monad.Trans.Writer ( Control/Monad/Trans/Writer.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Writer.o )
+[23 of 29] Compiling Control.Monad.Trans.Accum ( Control/Monad/Trans/Accum.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Accum.o )
+[24 of 29] Compiling Control.Monad.Trans.Writer.Strict ( Control/Monad/Trans/Writer/Strict.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Monad/Trans/Writer/Strict.o )
+[25 of 29] Compiling Data.Functor.Compose ( legacy/pre711/Data/Functor/Compose.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Functor/Compose.o )
+[26 of 29] Compiling Data.Functor.Product ( legacy/pre711/Data/Functor/Product.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Functor/Product.o )
+[27 of 29] Compiling Data.Functor.Sum ( legacy/pre711/Data/Functor/Sum.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Functor/Sum.o )
+[28 of 29] Compiling Control.Applicative.Backwards ( Control/Applicative/Backwards.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Applicative/Backwards.o )
+[29 of 29] Compiling Data.Functor.Reverse ( Data/Functor/Reverse.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Functor/Reverse.o )
+In-place registering transformers-0.5.4.0...
+Installing library in
+/Users/lizziesiegle/Desktop/programming/hask/stockbot/.stack-work/install/x86_64-osx/lts-6.31/7.10.3/lib/x86_64-osx-ghc-7.10.3/transformers-0.5.4.0-3eMGVI4rvvc6PTLK2wQl8R
+Registering transformers-0.5.4.0...

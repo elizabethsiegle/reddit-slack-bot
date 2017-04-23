@@ -1,0 +1,42 @@
+Configuring crypto-api-0.13.2...
+Building crypto-api-0.13.2...
+Preprocessing library crypto-api-0.13.2...
+[ 1 of 11] Compiling Crypto.CPoly     ( Crypto/CPoly.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/CPoly.o )
+[ 2 of 11] Compiling Crypto.Types     ( Crypto/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Types.o )
+[ 3 of 11] Compiling Crypto.Util      ( Crypto/Util.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Util.o )
+[ 4 of 11] Compiling Crypto.Random    ( Crypto/Random.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Random.o )
+[ 5 of 11] Compiling Crypto.Classes[boot] ( Crypto/Classes.hs-boot, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Classes.o-boot )
+[ 6 of 11] Compiling Crypto.Modes[boot] ( Crypto/Modes.hs-boot, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Modes.o-boot )
+[ 7 of 11] Compiling Crypto.Classes   ( Crypto/Classes.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Classes.o )
+[ 8 of 11] Compiling Crypto.HMAC      ( Crypto/HMAC.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/HMAC.o )
+[ 9 of 11] Compiling Crypto.Padding   ( Crypto/Padding.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Padding.o )
+[10 of 11] Compiling Crypto.Classes.Exceptions ( Crypto/Classes/Exceptions.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Classes/Exceptions.o )
+[11 of 11] Compiling Crypto.Modes     ( Crypto/Modes.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Crypto/Modes.o )
+
+cbits/misc.c:5:26:
+     warning: '^' within '|' [-Wbitwise-op-parentheses]
+            ret = ret | x[i] ^ y[i];
+                      ~ ~~~~~^~~~~~
+
+cbits/misc.c:5:26:
+     note: place parentheses around the '^' expression to silence this warning
+            ret = ret | x[i] ^ y[i];
+                             ^
+                        (          )
+1 warning generated.
+
+cbits/misc.c:5:26:
+     warning: '^' within '|' [-Wbitwise-op-parentheses]
+            ret = ret | x[i] ^ y[i];
+                      ~ ~~~~~^~~~~~
+
+cbits/misc.c:5:26:
+     note: place parentheses around the '^' expression to silence this warning
+            ret = ret | x[i] ^ y[i];
+                             ^
+                        (          )
+1 warning generated.
+In-place registering crypto-api-0.13.2...
+Installing library in
+/Users/lizziesiegle/Desktop/programming/hask/stockbot/.stack-work/install/x86_64-osx/lts-6.31/7.10.3/lib/x86_64-osx-ghc-7.10.3/crypto-api-0.13.2-G6jAXCUsyDdAZDOyIzNPrR
+Registering crypto-api-0.13.2...

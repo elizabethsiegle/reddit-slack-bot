@@ -1,0 +1,55 @@
+Configuring psqueues-0.2.2.3...
+Building psqueues-0.2.2.3...
+Preprocessing library psqueues-0.2.2.3...
+[1 of 7] Compiling Data.BitUtil     ( src/Data/BitUtil.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/BitUtil.o )
+[2 of 7] Compiling Data.OrdPSQ.Internal ( src/Data/OrdPSQ/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/OrdPSQ/Internal.o )
+
+src/Data/OrdPSQ/Internal.hs:6:14: Warning:
+    ‘Data.OrdPSQ.Internal’ is marked as Trustworthy but has been inferred as safe!
+
+src/Data/OrdPSQ/Internal.hs:75:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[3 of 7] Compiling Data.OrdPSQ      ( src/Data/OrdPSQ.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/OrdPSQ.o )
+
+src/Data/OrdPSQ.hs:15:14: Warning:
+    ‘Data.OrdPSQ’ is marked as Trustworthy but has been inferred as safe!
+[4 of 7] Compiling Data.IntPSQ.Internal ( src/Data/IntPSQ/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/IntPSQ/Internal.o )
+
+src/Data/IntPSQ/Internal.hs:64:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/IntPSQ/Internal.hs:69:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Data/IntPSQ/Internal.hs:72:1: Warning:
+    The import of ‘Data.Word’ is redundant
+      except perhaps to import instances from ‘Data.Word’
+    To import instances alone, use: import Data.Word()
+
+src/Data/IntPSQ/Internal.hs:79:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[5 of 7] Compiling Data.IntPSQ      ( src/Data/IntPSQ.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/IntPSQ.o )
+[6 of 7] Compiling Data.HashPSQ.Internal ( src/Data/HashPSQ/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/HashPSQ/Internal.o )
+
+src/Data/HashPSQ/Internal.hs:57:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Data/HashPSQ/Internal.hs:62:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[7 of 7] Compiling Data.HashPSQ     ( src/Data/HashPSQ.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/HashPSQ.o )
+In-place registering psqueues-0.2.2.3...
+Installing library in
+/Users/lizziesiegle/.stack/snapshots/x86_64-osx/lts-6.31/7.10.3/lib/x86_64-osx-ghc-7.10.3/psqueues-0.2.2.3-1hqpftpAfMz1az7VoOLMEW
+Registering psqueues-0.2.2.3...
