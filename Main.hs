@@ -42,7 +42,7 @@ import Web.HackerNews
 --import Network.HTTP.Types.Status (statusCode)
 --import Network.HTTP.Base
 import Servant.Client (ClientEnv(ClientEnv), runClientM)
---import Web.Yahoo.Finance.YQL
+import Web.Yahoo.Finance.YQL
 --       (StockSymbol(StockSymbol), YQLQuery(YQLQuery), getQuotes,
 --        yahooFinanceJsonBaseUrl)
 --import Network.Yahoo.Finance
