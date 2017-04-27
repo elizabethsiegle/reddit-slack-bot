@@ -4,48 +4,58 @@
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE PatternGuards #-}
 {-# OPTIONS_GHC -fno-warn-deprecations #-}
+module Main where
+import System.IO
+import Data.Char(toUpper)
+import Data.Maybe
+import Data.Bool
+import Prelude
+import Network.HTTP.Client.TLS (getGlobalManager)
+import Network.HTTP.Client
+import Network.Linklater
+--import Network.HTTP.Client.TLS
+--import System.IO.Encoding
+import Data.Aeson
 
--- If writing Slack bots intrigues you, check out: https://github.com/hlian/linklater
+-- cabal install 
+-- cabal install only-dependencies
+--cabal install only-dependencies install-newer
 
 import qualified Data.Text as T
 --import qualified Network.Images.Search as Search
-import qualified Data.ByteString as B
+--import qualified Data.ByteString as B
 import           Control.Monad.IO.Class (liftIO)
 import           Control.Monad.Trans.Maybe (MaybeT, runMaybeT)
 import           Data.Aeson (encode)
 import           Data.Text (Text)
 import Network.HTTP.Types
 import Network.TLS
-import Network.Wai
+import Network.Wai.Handler.Warp (run)
+--import Network.Wai
 --import Network.Wai.Handler.Warp
 --import Network.Wai.Handler.WarpTLS
---import           Network.Wai.Handler.Warp.Run 
-import Control.Lens
+--import Network.Wai.Handler.Warp.Run 
+--import Control.Lens
 import Network.Wreq
 --import Data.Word8
-import Data.Attoparsec
+--import Data.Attoparsec
 --import HTTP.Conduit
--- Naked imports.
-import           BasePrelude hiding (words, intercalate)
-import           Network.Linklater
---import Network.Wai.Handler.Warp
---import System.IO.UTF8
+---- Naked imports.
+--import           BasePrelude hiding (words, intercalate)
 
-import Control.Monad.Trans.Class
+----import System.IO.UTF8
+----import Data.Char  
+--import Data.Char(toUpper)
+--import Control.Monad.Trans.Class
 
-
-import Network.HTTP.Client.TLS (getGlobalManager)
-import Network.HTTP.Client
-import Network.HTTP.Client.TLS
-
-import Web.HackerNews
---import Network.HTTP.Types.Status (statusCode)
---import Network.HTTP.Base
+----import Web.HackerNews
+import Network.HTTP.Types.Status (statusCode)
+import Network.HTTP.Base
 import Servant.Client (ClientEnv(ClientEnv), runClientM)
 import Web.Yahoo.Finance.YQL
 --       (StockSymbol(StockSymbol), YQLQuery(YQLQuery), getQuotes,
 --        yahooFinanceJsonBaseUrl)
---import Network.Yahoo.Finance
+----import Network.Yahoo.Finance
 
 
 cleverlyReadFile :: FilePath -> IO Text
@@ -72,13 +82,15 @@ messageOfCommand :: Command -> MaybeT IO Message
 
 messageOfCommand (Command "stock" user channel (Just text)) = do
   --gapi <- liftIO googleConfigIO
+  manager <- getGlobalManager
   query <- liftMaybe (parseText text)
   --urls <- liftIO (Search.linksOfQuery gapi query)
-  --url <- liftMaybe (listToMaybe urls)
-  return (messageOf [FormatAt user, FormatLink query query])
+  res <- runClientM (getQuotes (YQLQuery [StockSymbol query]) ) (ClientEnv manager yahooFinanceJsonBaseUrl)
+  url <- liftMaybe (listToMaybe res)
+  return (messageOf [FormatAt user, FormatLink url url])
   where
     messageOf =
-      FormattedMessage (EmojiIcon "gift") "stockbot" channel
+      FormattedMessage (EmojiIcon "gift") "stockbot1" channel
 messageOfCommand _ =
   mzero
 
@@ -103,6 +115,7 @@ jpgto (Just command) = do
       return ""
   where
     debug = False
+
 
 main :: IO ()
 main = do

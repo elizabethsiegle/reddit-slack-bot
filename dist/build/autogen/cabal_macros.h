@@ -7,6 +7,13 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 
+/* package HTTP-4000.3.4 */
+#define VERSION_HTTP "4000.3.4"
+#define MIN_VERSION_HTTP(major1,major2,minor) (\
+  (major1) <  4000 || \
+  (major1) == 4000 && (major2) <  3 || \
+  (major1) == 4000 && (major2) == 3 && (minor) <= 4)
+
 /* package aeson-1.1.2.0 */
 #define VERSION_aeson "1.1.2.0"
 #define MIN_VERSION_aeson(major1,major2,minor) (\
@@ -14,40 +21,12 @@
   (major1) == 1 && (major2) <  1 || \
   (major1) == 1 && (major2) == 1 && (minor) <= 2)
 
-/* package attoparsec-0.13.1.0 */
-#define VERSION_attoparsec "0.13.1.0"
-#define MIN_VERSION_attoparsec(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  13 || \
-  (major1) == 0 && (major2) == 13 && (minor) <= 1)
-
 /* package base-4.9.1.0 */
 #define VERSION_base "4.9.1.0"
 #define MIN_VERSION_base(major1,major2,minor) (\
   (major1) <  4 || \
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
-
-/* package bytestring-0.10.8.1 */
-#define VERSION_bytestring "0.10.8.1"
-#define MIN_VERSION_bytestring(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  10 || \
-  (major1) == 0 && (major2) == 10 && (minor) <= 8)
-
-/* package either-4.4.1.1 */
-#define VERSION_either "4.4.1.1"
-#define MIN_VERSION_either(major1,major2,minor) (\
-  (major1) <  4 || \
-  (major1) == 4 && (major2) <  4 || \
-  (major1) == 4 && (major2) == 4 && (minor) <= 1)
-
-/* package hspec-2.4.3 */
-#define VERSION_hspec "2.4.3"
-#define MIN_VERSION_hspec(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  4 || \
-  (major1) == 2 && (major2) == 4 && (minor) <= 3)
 
 /* package http-client-0.5.6.1 */
 #define VERSION_http_client "0.5.6.1"
@@ -70,26 +49,12 @@
   (major1) == 0 && (major2) <  9 || \
   (major1) == 0 && (major2) == 9 && (minor) <= 1)
 
-/* package mtl-2.2.1 */
-#define VERSION_mtl "2.2.1"
-#define MIN_VERSION_mtl(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  2 || \
-  (major1) == 2 && (major2) == 2 && (minor) <= 1)
-
-/* package safe-0.3.14 */
-#define VERSION_safe "0.3.14"
-#define MIN_VERSION_safe(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  3 || \
-  (major1) == 0 && (major2) == 3 && (minor) <= 14)
-
-/* package servant-0.10 */
-#define VERSION_servant "0.10"
-#define MIN_VERSION_servant(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  10 || \
-  (major1) == 0 && (major2) == 10 && (minor) <= 0)
+/* package linklater-3.2.0.0 */
+#define VERSION_linklater "3.2.0.0"
+#define MIN_VERSION_linklater(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  2 || \
+  (major1) == 3 && (major2) == 2 && (minor) <= 0)
 
 /* package servant-client-0.10 */
 #define VERSION_servant_client "0.10"
@@ -118,6 +83,20 @@
   (major1) <  0 || \
   (major1) == 0 && (major2) <  5 || \
   (major1) == 0 && (major2) == 5 && (minor) <= 2)
+
+/* package wai-3.2.1.1 */
+#define VERSION_wai "3.2.1.1"
+#define MIN_VERSION_wai(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  2 || \
+  (major1) == 3 && (major2) == 2 && (minor) <= 1)
+
+/* package wreq-0.5.0.1 */
+#define VERSION_wreq "0.5.0.1"
+#define MIN_VERSION_wreq(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 0)
 
 /* package yahoo-finance-api-0.2.0.1 */
 #define VERSION_yahoo_finance_api "0.2.0.1"
