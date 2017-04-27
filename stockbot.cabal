@@ -27,8 +27,10 @@ executable stockbot
                      , semigroupoids
                      , servant-client
                      , text
+                     , tls
                      , transformers
                      , wai
+                     , warp
                      , wreq
                      , yahoo-finance-api
   -- hs-source-dirs:      
