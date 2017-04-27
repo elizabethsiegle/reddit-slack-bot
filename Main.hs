@@ -62,13 +62,13 @@ cleverlyReadFile :: FilePath -> IO Text
 cleverlyReadFile filename =
   T.filter (/= '\n') . T.pack <$> readFile filename
 
--- configIO :: IO Config
--- configIO =
---   Config <$> (cleverlyReadFile "hook")
+configIO :: IO Config
+configIO =
+  Config <$> (cleverlyReadFile "hook")
 
---googleConfigIO :: IO Search.Gapi
---googleConfigIO =
---  Search.config <$> (cleverlyReadFile "google-server-key") <*> (cleverlyReadFile "google-search-engine-id")
+-- googleConfigIO :: IO Search.Gapi
+-- googleConfigIO =
+--   Search.config <$> (cleverlyReadFile "google-server-key") <*> (cleverlyReadFile "google-search-engine-id")
 
 parseText :: Text -> Maybe Text
 parseText text = case T.strip text of
