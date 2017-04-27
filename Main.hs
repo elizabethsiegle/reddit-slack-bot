@@ -16,7 +16,7 @@ import Data.Bool
 import Prelude
 import Network.HTTP.Client.TLS (getGlobalManager)
 import Network.HTTP.Client
--- import Network.Linklater
+import Network.Linklater
 --import Network.HTTP.Client.TLS
 --import System.IO.Encoding
 import Data.Aeson

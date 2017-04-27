@@ -23,7 +23,7 @@ executable stockbot
                      , http-client
                      , http-client-tls
                      , http-types
-                     -- , linklater
+                     , linklater
                      , semigroupoids
                      , servant-client
                      , text
