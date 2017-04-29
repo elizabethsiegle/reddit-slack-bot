@@ -34,5 +34,6 @@ executable stockbot
                      , wreq
                      , yahoo-finance-api
                      , ghc-prim
+                     , bytestring
   -- hs-source-dirs:      
   default-language:    Haskell2010
