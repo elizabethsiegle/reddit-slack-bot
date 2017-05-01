@@ -36,7 +36,6 @@ import Network.TLS
 import Network.Wai.Handler.Warp (run)
 import Network.Wreq
 
-----import Web.HackerNews
 import Network.HTTP.Types.Status (statusCode)
 import Network.HTTP.Base
 import Servant.Client (ClientEnv(ClientEnv), runClientM)
@@ -45,6 +44,12 @@ import Web.Yahoo.Finance.YQL
 --        yahooFinanceJsonBaseUrl)
 ----import Network.Yahoo.Finance
 
+import Reddit
+import Reddit.Types.Post
+import Control.Monad
+import Control.Monad.IO.Class
+import qualified Data.Text as Text
+import qualified Data.Text.IO as Text
 
 readSlackFile :: FilePath -> IO Text
 readSlackFile filename =
@@ -62,17 +67,14 @@ parseText text = case T.strip text of
 liftMaybe :: Maybe a -> IO a
 liftMaybe = maybe mzero return
 
-messageOfCommand :: Command -> IO Message
-messageOfCommand (Command "stock" user channel (Just text)) = do
+messageOfCommandStock :: Command -> IO Network.Linklater.Message
+messageOfCommandStock (Command "stock" user channel (Just text)) = do
   manager <- getGlobalManager
   query <- liftMaybe (parseText text)
   res <- runClientM (getQuotes (YQLQuery [StockSymbol query])) (ClientEnv manager yahooFinanceJsonBaseUrl)
   case res of
-    --Left servantError -> do
-    --  print (servantError)
-    --  return ("<unexpected error>")::IO Message
-    Right quoteLastTradePriceOnly ->
-      return (messageOf [FormatAt user, FormatString (T.pack(show quoteLastTradePriceOnly))])
+    Right responseQuotes ->
+      return (messageOf [FormatAt user, FormatString (T.pack(show responseQuotes))])
       where 
         messageOf =
           FormattedMessage(EmojiIcon "gift") "stockbot" channel
@@ -83,7 +85,7 @@ stockify Nothing =
 
 stockify (Just command) = do
   Prelude.putStrLn ("+ Incoming command: " <> show command)
-  message <- (messageOfCommand) command
+  message <- (messageOfCommandStock) command
   config <- configIO
   --putStrLn ("+ Outgoing message: " <> show (message))
   case (debug, message) of
@@ -96,6 +98,38 @@ stockify (Just command) = do
       return ""
   where
     debug = False
+--messageOfCommandHackerNews :: Command -> IO Message
+--messageOfCommandHackerNews (Command "hackernews" user channel (Just text)) = do
+-- mgr <- newManager tlsManagerSettings
+--  case mgr of
+--    --Left servantError -> do
+--    --  print (servantError)
+--    --  return ("<unexpected error>")::IO Message
+--    Right getTopStories mgr ->
+--      return (messageOf [FormatAt user, FormatString (T.pack(show getTopStories mgr))])
+--      where 
+--        messageOf =
+--          FormattedMessage(EmojiIcon "gift") "hackernews" channel
+
+--hnify:: Maybe Command -> IO Text
+--hnify Nothing = 
+--  return "Unrecognized Slack request"
+
+--hnify (Just command) = do
+--  Prelude.putStrLn ("+ Incoming command: " <> show command)
+--  message <- (messageOfCommandHackerNews) command
+--  config <- configIO
+--  --putStrLn ("+ Outgoing message: " <> show (message))
+--  case (debug, message) of
+--    (False,  m) -> do
+--      _ <- say m config
+--      return ""
+--    --(False, Nothing) ->
+--    --  return "ugh"
+--    _ ->
+--      return ""
+--  where
+--    debug = False
 
 
 main :: IO ()

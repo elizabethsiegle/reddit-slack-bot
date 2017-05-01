@@ -1,0 +1,34 @@
+{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE NoImplicitPrelude #-}
+
+module HackerNews where
+
+import           Control.Monad.Except (throwError, liftIO, runExceptT)
+import           Data.Aeson (encode)
+import           Data.Text (strip)
+import           Network.Wai.Handler.Warp (run)
+
+import           Utils (sample)
+
+-- Naked imports.
+import           BasePrelude hiding (words, intercalate)
+import           Control.Lens
+import           Data.Text.Strict.Lens
+import           Network.Linklater
+import           Types
+
+readSlackFile :: FilePath -> IO Text
+readSlackFile filename =
+  T.filter (/= '\n') . T.pack <$> Prelude.readFile filename
+
+configIO :: IO Config
+configIO =
+  Config <$> (readSlackFile "hook")
+
+parseText :: Text -> Maybe Text
+parseText text = case T.strip text of
+  "" -> Nothing
+  x -> Just x
+
+liftMaybe :: Maybe a -> IO a
+liftMaybe = maybe mzero return

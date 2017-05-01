@@ -41,6 +41,8 @@ packages:
 # (e.g., acme-missiles-0.3)
 extra-deps:
 - linklater-3.2.0.0
+- api-builder-0.12.0.0
+- reddit-0.2.1.0
 
 # This is so that linklater will build.
 allow-newer: true
