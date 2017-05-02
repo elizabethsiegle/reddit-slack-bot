@@ -92,45 +92,10 @@ stockify (Just command) = do
     (False,  m) -> do
       _ <- say m config
       return ""
-    --(False, Nothing) ->
-    --  return "ugh"
     _ ->
       return ""
   where
     debug = False
---messageOfCommandHackerNews :: Command -> IO Message
---messageOfCommandHackerNews (Command "hackernews" user channel (Just text)) = do
--- mgr <- newManager tlsManagerSettings
---  case mgr of
---    --Left servantError -> do
---    --  print (servantError)
---    --  return ("<unexpected error>")::IO Message
---    Right getTopStories mgr ->
---      return (messageOf [FormatAt user, FormatString (T.pack(show getTopStories mgr))])
---      where 
---        messageOf =
---          FormattedMessage(EmojiIcon "gift") "hackernews" channel
-
---hnify:: Maybe Command -> IO Text
---hnify Nothing = 
---  return "Unrecognized Slack request"
-
---hnify (Just command) = do
---  Prelude.putStrLn ("+ Incoming command: " <> show command)
---  message <- (messageOfCommandHackerNews) command
---  config <- configIO
---  --putStrLn ("+ Outgoing message: " <> show (message))
---  case (debug, message) of
---    (False,  m) -> do
---      _ <- say m config
---      return ""
---    --(False, Nothing) ->
---    --  return "ugh"
---    _ ->
---      return ""
---  where
---    debug = False
-
 
 main :: IO ()
 main = do
