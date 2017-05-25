@@ -23,7 +23,6 @@ executable stockbot
                      , http-client
                      , http-client-tls
                      , http-types
-                     , linklater
                      , semigroupoids
                      , servant-client
                      , text
@@ -35,6 +34,5 @@ executable stockbot
                      , yahoo-finance-api
                      , ghc-prim
                      , bytestring
-                     , reddit
   -- hs-source-dirs:      
   default-language:    Haskell2010
