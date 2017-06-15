@@ -1,5 +1,4 @@
 This stock bot uses the [Linklater](https://github.com/hlian/linklater) API to make a Slack bot that returns stock info based on a given public company. The information is accessed from this [Yahoo Finance API](https://github.com/cdepillabout/yahoo-finance-api). It does not recognize "Google" or "Twilio", only the stock name of "Goog" or "Twlo" (or "twlo".) To run, clone the repo, *stack build*, *stack exec stockbot*, and then open up a Ngrok tunnel. You'll need a [Slack incoming webhook](https://api.slack.com/incoming-webhooks), too, which you will copy the URL of and paste into your Slack app.
-To run, clone the repo, *stack build*, *stack exec redditbot*, and then open up a Ngrok tunnel. You'll need a [Slack incoming webhook](https://api.slack.com/incoming-webhooks), too.
 
 Slack steps:
 1. After going to *your apps* in the top righthand corner of https://api.slack.com, and selecting the bot you want (or creating a new one),select *incoming webhooks* to generate your web hook. Put this in a file called hook. ![webhook](https://cloud.githubusercontent.com/assets/8932430/25603467/0a42ce9e-2eca-11e7-9ad2-fdc7cb1b00d1.png) 
