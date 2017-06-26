@@ -1,4 +1,4 @@
-# Revision history for stockbot
+# Revision history for redditbot
 
 ## 0.1.0.0  -- YYYY-mm-dd
 

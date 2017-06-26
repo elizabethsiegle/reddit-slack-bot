@@ -15,7 +15,7 @@
 # resolver:
 #  name: custom-snapshot
 #  location: "./custom-snapshot.yaml"
-resolver: lts-8.12
+resolver: lts-8.19
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -37,23 +37,9 @@ resolver: lts-8.12
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - '.'
-- location: twilio-haskell-move-to-stack
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
-extra-deps:
-- linklater-3.2.0.0
-- base-4.9
-- api-builder-0.12.0.0
-- reddit-0.2.1.0
-- tightrope-0.1.0.1
-- wai-extra-3.0.19.1
-- wai-logger-2.3.0
-- http-client-0.5.7.0
-- wreq-0.5.0.1
-- http-client-tls-0.3.5.1
-- authenticate-oauth-1.6
-# This is so that linklater will build.
-allow-newer: true
+extra-deps: []
 
 # Override default flag values for local packages and extra-deps
 flags: {}
