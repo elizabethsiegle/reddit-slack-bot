@@ -173,14 +173,14 @@ If you see a pop-up asking if you want your application to accept incoming netwo
 ## Conclusion
 Yes, building Slack bots in Haskell is really that easy! Some Haskell APIs that you could use for another bot (or just in general) include:
 
-- Twilio
-- Clarifai
-- Hacker News
-- Google Calendar
-- Stripe
-- GitHub
-- Giphy
-- Yahoo Finance (stock)
+- [Twilio](https://twilio.com)
+- [Clarifai](https://clarifai.com)
+- [Hacker News](https://github.com/dmjio/hackernews)
+- [Google Calendar](https://github.com/georgeee/haskell-google-calendar-api)
+- [Stripe](https://github.com/dmjio/stripe)
+- [GitHub](https://github.com/phadej/github)
+- [Giphy](https://github.com/passy/giphy-api)
+- [Yahoo Finance](https://github.com/cdepillabout/yahoo-finance-api)
 Questions? Comments? Find me online:
 
 Email: lsiegle@twilio.com
